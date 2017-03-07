@@ -1,0 +1,123 @@
+      BODY {
+        font-family: "Roboto", sans-serif;
+        background-color: #505033
+      }
+      
+      H1 {
+        font-size: 1.2em;
+        margin: 0;
+        font-weight: bold;
+        font-family: "Verdana";
+        color: Azure
+      }
+      
+      H2 {
+        font-size: 1em;
+        margin: 0;
+        font-weight: bold;
+        font-family: "Verdana";
+        color: Gainsboro
+      }
+      
+      P {
+        font-size: 0.8em;
+        margin: 0;
+        font-weight: normal;
+        font-family: "Verdana";
+        color: Gainsboro
+      }
+      
+      button {
+        background-color: dimgrey;
+        font-size: 1.2em;
+        padding: 0.1em;
+        text-align: center;
+        float: left;
+        color: white;
+        border: 1px solid black;
+        width: 50%;
+      }
+      
+      A {
+        font-size: 1em;
+        margin: 0;
+        font-weight: normal;
+        font-family: "Verdana";
+        color: CornflowerBlue
+      }
+      
+      div.container {}
+      
+      div.char {
+        border-style: hidden;
+        border-color: black;
+        width: 302px;
+        float: left;
+        position: relative;
+        display: inline-block;
+        margin-left: 10px;
+        margin-bottom: 1em;
+        padding: 0em;
+        background: black;
+      }
+      
+      div.charBadge {
+        height: 61px;
+        clear: both;
+      }
+      
+      div.charIcon {
+        float: left;
+        height: 61px;
+      }
+      
+      div.charRaceAndGender {
+        float: left;
+        margin-top: 0.8em;
+        margin-left: 0.2em;
+      }
+      
+      div.charLevel {
+        float: right;
+        text-align: right;
+        margin-top: 0.5em;
+        margin-right: 0.5em;
+        font-size: 1.5em;
+      }
+      
+      div.charController {
+        clear: both;
+      }
+      
+      div.charControllerButtons {
+        float: left;
+      }
+      
+      div.charStatsContainer {
+        border-style: hidden;
+      }
+      
+      div.charStats {
+        display: none;
+      }
+      
+      table {
+        width: 100%;
+      }
+      
+      td.statheader {
+        text-align: left;
+      }
+      
+      td.statvalue {
+        color: black;
+        text-align: right;
+      }
+      
+      tr.stats:nth-child(odd) {
+        background-color: #6D8145;
+      }
+      
+      tr.stats:nth-child(even) {
+        background-color: #B1C28E;
+      }
