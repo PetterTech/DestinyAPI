@@ -31,7 +31,7 @@
 
 <?php
 	$ch_1 = curl_init();
-	curl_setopt($ch_1, CURLOPT_URL, "http://api.kemta.net/destiny/ad.php");
+	curl_setopt($ch_1, CURLOPT_URL, "ad.php");
 	curl_setopt($ch_1, CURLOPT_HEADER, 0);
 	curl_setopt($ch_1, CURLOPT_RETURNTRANSFER, true);
 
