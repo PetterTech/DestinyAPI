@@ -25,6 +25,10 @@
 
 <p>Input username above and click search for userstats</p>
 
+<br>
+<br>
+<br>
+
 <?php
 	$ch_1 = curl_init();
 	curl_setopt($ch_1, CURLOPT_URL, "http://api.kemta.net/destiny/ad.php");
