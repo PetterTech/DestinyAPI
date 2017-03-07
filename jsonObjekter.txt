@@ -1,0 +1,6 @@
+TheDarking3131: 
+	membershipId: 4611686018444109606
+		characterId (deleted): 2305843009324726434
+		characterId: 2305843009371119742
+http://codebeautify.org/jsonviewer/cb61deac <--getHistoricalStatsForAccount, alle stats om alle karakterer (https://www.bungie.net/platform/destiny/Stats/Account/2/$membershipId/)
+http://codebeautify.org/jsonviewer/cb2a7f63 <--getCharacterSummary, specs for 1 karakter (/Destiny/{membershipType}/Account/{destinyMembershipId}/Character/{characterId}/)
