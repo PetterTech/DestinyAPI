@@ -223,6 +223,10 @@ else {
 		//print_r($missingCards);
 	}	
 }
+<br>
+<br>
+<br>
+include 'ad.php';
 ?>
  
 </body>
