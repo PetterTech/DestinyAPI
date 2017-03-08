@@ -87,7 +87,7 @@
 
 			$user = get_bungie("https://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/2/$username/");
 			$membershipId = $user[0]->membershipId;
-
+			print_r $user;
 			//Provide error message if username is incorrect
 			if (!isset($membershipId)) {echo "<h1>Incorrect username</h1><p>The supplied username was: " . $username;}
 
