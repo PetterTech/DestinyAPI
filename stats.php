@@ -619,9 +619,17 @@
 				
 				} //exiting else loop (user found)
 			} //exiting else loop (username set)
-		include 'ad.php';
+
 		?>
 	
+	
+	<br>
+	<br>
+	<br>
+
+	<?php
+	include 'ad.php';
+	?>
 
 	</body>
 </html>

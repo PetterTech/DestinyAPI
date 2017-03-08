@@ -109,8 +109,14 @@ else {
 			}
 		}
 	}	
-include 'ad.php';
+?>
 
+<br>
+<br>
+<br>
+
+<?php
+include 'ad.php';
 ?>
 
 
