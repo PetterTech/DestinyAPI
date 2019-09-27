@@ -45,7 +45,7 @@
 		<br>
 
 	<?php
-		$apiKey = '072ed475fb5443bd9d5b619dd9372b95';
+		$apiKey = '';
 		$username = $_GET['username'];
 
 		/*

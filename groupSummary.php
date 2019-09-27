@@ -14,8 +14,7 @@
 
 <?php
 
-$apiKey = '072ed475fb5443bd9d5b619dd9372b95';
-//$groupid = '1501516';
+$apiKey = '';
 $clanname = $_GET['clanname'];
 
 if (!isset($clanname)) {

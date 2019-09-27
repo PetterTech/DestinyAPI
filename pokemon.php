@@ -14,7 +14,7 @@
 
 <?php
 
-$apiKey = '072ed475fb5443bd9d5b619dd9372b95';
+$apiKey = '';
 $username = $_GET['username'];
 
 if (!isset($username)) {
@@ -50,10 +50,6 @@ else {
 	if (!isset($membershipId)) {echo "<h1>Incorrect username</h1><p>The supplied username was: " . $username;}
 
 	else {
-		//Showing some info
-		//echo "<p>Username: " . $username . "</p>";
-		//echo "<p>MembershipId: " . $membershipId . "</p>";
-		//echo "<p>Grimoire score: " . $usergrimoire->data->score . "</p>";
 
 		//Defining some variables for later use
 		$numberofcards = count($usergrimoire->data->cardCollection);
